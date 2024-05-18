@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./jewon.css";
 const jewon_index = () => {
   return (
     <div>
-      <h1>Jewon</h1>
+      <h1>테스트</h1>
     </div>
   );
 };

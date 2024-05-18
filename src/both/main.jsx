@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './main.css';
 
 const main = () => {
   return (
-    <div className="p-8 m-8">
+    <div>
       <h1>MainPage</h1>
-      <Link to="/youngminMain">youngminMain</Link>
-      <br />
-      <Link to="/jewonMain">jewonMain</Link>
+      <hr></hr>
+      <button to="/youngminMain" class='ymm'>YoungminMain</button>
+      <button to="/jewonMain" class='jwm'>JewonMain</button>
     </div>
   );
 };

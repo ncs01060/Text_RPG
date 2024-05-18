@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+h1 {
+    margin-left: 0px;
+    font-family: Gowun Dodum;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.ymm {
+    background-color: white;
+    border-color: white;
+    font-family: Gowun Dodum;
+    font-size: 1rem;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.ymm:hover{
+    background-color: #dadce0;
+    border-color: white;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: Gowun Dodum;
+    font-size: 1rem;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.jwm {
+    background-color: white;
+    border-color: white;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: Gowun Dodum;
+    font-size: 1rem;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+.jwm:hover {
+    background-color: #dadce0;
+    border-color: white;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: Gowun Dodum;
+    font-size: 1rem;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
