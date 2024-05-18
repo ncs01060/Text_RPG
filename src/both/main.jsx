@@ -7,8 +7,8 @@ const main = () => {
     <div>
       <h1>MainPage</h1>
       <hr></hr>
-      <button to="/youngminMain" class='ymm'>YoungminMain</button>
-      <button to="/jewonMain" class='jwm'>JewonMain</button>
+      <Link to="/youngminMain"><button class='ymm'>YoungminMain</button></Link>
+      <Link to="/jewonMain" ><button class='jwm'>JewonMain</button></Link>
     </div>
   );
 };
