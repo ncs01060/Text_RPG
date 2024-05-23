@@ -7,5 +7,4 @@ const jewon_index = () => {
     </div>
   );
 };
-
 export default jewon_index;

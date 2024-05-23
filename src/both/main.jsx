@@ -4,11 +4,8 @@ import './main.css';
 
 const main = () => {
   return (
-    <div>
-      <h1>MainPage</h1>
-      <hr></hr>
-      <Link to="/youngminMain"><button class='ymm'>YoungminMain</button></Link>
-      <Link to="/jewonMain" ><button class='jwm'>JewonMain</button></Link>
+    <div class='centerplease'>
+      <h1 class='fadein'>MainPage</h1>
     </div>
   );
 };
