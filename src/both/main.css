@@ -1,90 +1,48 @@
 body {
-    background-color: #0f1e59;
+    background-image:url("https://lh3.google.com/u/0/d/1_Sh9vzng3oktAW9hxv-l_70X2e9BvNwR=w2880-h1376-iv1");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.centerplease{
-  display:table;
-  table-layout:fixed;
-  width:100%;
-  height:100vh;
-  text-align:center;
-}
-h1 {
-    font-size: 2rem;
-    color: white;
-    display:table-cell;
-    vertical-align:middle;
-}
-.fadein{
-    position: relative;
-    overflow: hidden;
-    animation: fadein 0.5s ease-in-out;
-    margin-left: 0rem;
-  }
-  
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: none;
-    }
-  }
+/*여기까지 배경화면*/
 
-h1 {
-  margin-left: 0px;
-  font-family: Gowun Dodum;
-  font-size: 3rem;
-  text-align: center;
+header {
+  height: 4rem;
+  padding: 0.7rem;
+  font-size: 1.5rem;
   color: white;
-}
-.ymm {
-  background-color: white;
-  border-color: white;
-  font-family: Gowun Dodum;
-  font-size: 1rem;
-  width: 50%;
-  height: 100vh;
-  float: left;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.ymm:hover {
-  background-color: #dadce0;
-  border-color: white;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-family: Gowun Dodum;
-  font-size: 1rem;
-  width: 50%;
-  height: 100vh;
-  float: left;
+.fadein{
+  position: relative;
+  overflow: hidden;
+  animation: fadein 0.5s ease-in-out;
+  font-family: Grandiflora One;
+  margin-left: 5rem;
 }
-.jwm {
-  background-color: white;
-  border-color: white;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-family: Gowun Dodum;
-  font-size: 1rem;
-  width: 50%;
-  height: 100vh;
-  float: right;
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
-.jwm:hover {
-  background-color: #dadce0;
-  border-color: white;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-family: Gowun Dodum;
-  font-size: 1rem;
-  width: 50%;
-  height: 100vh;
-  float: right;
+/*여기까지 상단바*/
+
+.asdf {
+  text-align: center;
+  font-size: 5rem;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

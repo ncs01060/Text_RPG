@@ -1,4 +1,8 @@
 body {
   font-size: 10px;
-  background-color: black;
+}
+.grandiflora-one-regular {
+  font-family: "Grandiflora One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }

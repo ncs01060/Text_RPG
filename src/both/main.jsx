@@ -4,9 +4,17 @@ import './main.css';
 
 const main = () => {
   return (
-    <div class='centerplease'>
-      <h1 class='fadein'>MainPage</h1>
-    </div>
+  <div>
+  <header>
+  <h1 class='fadein'>Mainpage</h1>
+  <nav>
+    <Link to='/Youngminmain' class='fadein'>Youngmin</Link>
+    <Link to='/Jewonmain' class='fadein'>Jewon</Link>
+  </nav>
+</header>
+
+<h2 class='asdf'>ㅁㄴㅇㄹ</h2>
+</div>
   );
 };
 

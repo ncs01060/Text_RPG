@@ -1,5 +1,4 @@
 import React from "react";
-
 const youngmin_index = () => {
   return (
     <div className="flex flex-row p-8 m-6">
