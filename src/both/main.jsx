@@ -8,8 +8,8 @@ const main = () => {
   <header>
   <h1 class='fadein'>Mainpage</h1>
   <nav>
-    <Link to='/Youngminmain' class='fadein'>Youngmin</Link>
-    <Link to='/Jewonmain' class='fadein'>Jewon</Link>
+    <Link to='/Youngminmain' class='fadein'><button>Youngmin</button></Link>
+    <Link to='/Jewonmain' class='fadein'><button>Jewon</button></Link>
   </nav>
 </header>
 
