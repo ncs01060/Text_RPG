@@ -1,0 +1,7 @@
+.test {
+    font-family: var(--font1);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30rem;
+    height: 100vh;
+}

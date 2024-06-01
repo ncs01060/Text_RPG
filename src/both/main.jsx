@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './main.css';
+import style from './main.module.css'
 
 const main = () => {
   return (
-  <div>
+  <div className={style.mainbg}>
   <header>
-  <h1 class='fadein'>Mainpage</h1>
+  <h1 className={style.fadein}>Mainpage</h1>
   <nav>
-    <Link to='/Youngminmain' class='fadein'><button>Youngmin</button></Link>
-    <Link to='/Jewonmain' class='fadein'><button>Jewon</button></Link>
+    <Link to='/Youngminmain' className={style.fadein}><button>Youngmin</button></Link>
+    <Link to='/Jewonmain' className={style.fadein}><button>Jewon</button></Link>
   </nav>
 </header>
 
-<h2 class='asdf'>ㅁㄴㅇㄹ</h2>
+<h2 className={style.asdf}>ㅁㄴㅇㄹ</h2>
 </div>
   );
 };

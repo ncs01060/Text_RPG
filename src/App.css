@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+:root {
+  --font1: Gowun Dodum;
+}
+
+:root {
+  --font2: Grandiflora One;
+}
 body {
   font-size: 10px;
+  margin: 0rem;
 }
+
+.gowun-dodum-regular {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .grandiflora-one-regular {
   font-family: "Grandiflora One", cursive;
   font-weight: 400;

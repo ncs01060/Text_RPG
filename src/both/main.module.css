@@ -1,7 +1,8 @@
-body {
-    background-image:url("https://lh3.google.com/u/0/d/1_Sh9vzng3oktAW9hxv-l_70X2e9BvNwR=w2880-h1376-iv1");
+.mainbg {
+    background-image:url("https://lh3.google.com/u/0/d/18DCbwgW9keNErX9v5iOLSvo8WXtzEf7a=w2880-h1376-iv1");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 /*여기까지 배경화면*/
 
@@ -22,7 +23,7 @@ header {
   position: relative;
   overflow: hidden;
   animation: fadein 0.5s ease-in-out;
-  font-family: Grandiflora One;
+  font-family: var(--font2);
   margin-left: 5rem;
 }
 

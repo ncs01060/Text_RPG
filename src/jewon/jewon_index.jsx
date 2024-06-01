@@ -1,9 +1,9 @@
 import React from "react";
-import "./jewon.css";
+import style from './jewon.module.css'
 const jewon_index = () => {
   return (
     <div>
-      <h1>테스트</h1>
+      <h1 className={style.test}>테스트</h1>
     </div>
   );
 };
